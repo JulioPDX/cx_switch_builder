@@ -1,0 +1,10 @@
+Switch,vrf,vrf_rd,ospf_id,loopback_int,loopback_addr
+L1-CORE,global,,1,10,172.31.255.2
+L1-CORE,MGMT,2:2,2,11,172.31.255.12
+L1-CORE,Voice,3:3,3,12,172.31.255.22
+L1-CORE,Guest,4:4,4,13,172.31.255.32
+L2-CORE,global,,1,10,172.31.255.3
+L2-CORE,MGMT,2:2,2,11,172.31.255.13
+L2-CORE,Voice,3:3,3,12,172.31.255.23
+L2-CORE,Guest,4:4,4,13,172.31.255.33
+
