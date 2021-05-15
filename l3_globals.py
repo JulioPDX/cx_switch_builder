@@ -30,12 +30,14 @@ for row in reader:
     outfile = ("./vrf_parts_output/" + switch + "_" + vrf + ".txt")
     write_out = open(outfile,"w")
     write_out.write(string)
+    write_out.close()
 
   if vrf == "global":
     string = "router ospf " + ospf_id + "\n" " router-id " + loopback_addr + "\n" + " area 0\n enable\n exit\n\n"
     outfile = ("./vrf_parts_output/" + switch + "_global.txt")
     write_out = open(outfile,"w")
     write_out.write(string)
+    write_out.close()
 
 for row in inventory:
     switch = (row['Switch'])
