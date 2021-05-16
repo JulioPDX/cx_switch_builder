@@ -42,3 +42,5 @@ for row in reader:
 for row in inventory:
     switch = (row['Switch'])
     os.system('cat ./vrf_parts_output/' + switch + '* >> ./output/' + switch + '_full.txt')
+
+os.system('rm -rf ./vrf_parts_output')

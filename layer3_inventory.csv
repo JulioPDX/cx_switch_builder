@@ -1,4 +1,11 @@
-Switch,vrf,vrf_rd,ospf_id,loopback_int,loopback_addr
-L1,Guest,4:4,4,13,172.31.255.131
-L2,Guest,4:4,4,13,172.31.255.132
-
+Switch,,
+B1-CORE,,
+B2-CORE,,
+B3-CORE,,
+B4-CORE,,
+B5-CORE,,
+B6-CORE,,
+B7-CORE,,
+B8-CORE,,
+B9-CORE,,
+B10-CORE,,
